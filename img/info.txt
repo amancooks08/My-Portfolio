@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Lemonada-Bold
+font link: https://fonts.google.com/specimen/Lemonada
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+
+
+icon designer: Gregor Cresnar
+icon designer link: /grega.cresnar
+        
+
+fontColor: {"hex":"#000000"}
+bgColor: {"hex":"transparent"}
+iconColor: {"hex":"#000000"}
+
+      
