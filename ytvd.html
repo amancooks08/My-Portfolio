@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amandeep Singh's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/profile.png" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__i+tem"><a href="index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">Skills and Languages</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="https://drive.google.com/file/d/1kbNCTkJ-UdKyV_gg8t1D-_qW06IQhVQ8/view?usp=sharing" class="nav__link">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <a href="https://github.com/amancooks08/Youtube-Video-Downloader">
+                <h1 class="section__title section__title--intro">
+                    Youtube Video <br> Downloader
+                </h1>
+            </a>
+            <p class="section__subtitle section__subtitle--intro">Project</p>
+            <img src="img/ytv1.PNG" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>The main Idea behin the porject was my inability to find a trusted source to download my favourite youtube videos. Since most of them were full of malicious adds and malwares. So, I thought, Why not have a downloader of my own?!</p>
+            <p>This was an interesting project based on the python <strong>youtube_dl</strong> module. I implemented the project on Django. With the front-end based on HTML and CSS.</p>
+            <div><img src="img/ytv2.PNG" alt="" class="aiesec-img"></div>
+            
+            <p> I received the data from the <strong>youtube_dl</strong> module in the form of a JSON file same as an API, and thus I managed to fetch the useful ata to provide my users with every other video and audio format of their favourite video.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:amandeep.chhabra2001@gmail.com" class="footer__link">Reach Out To Me.📧</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/amandeepsingh08_/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://www.linkedin.com/in/amandeep-singh0807/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/abrupt_Amandeep/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/amancooks08/">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
